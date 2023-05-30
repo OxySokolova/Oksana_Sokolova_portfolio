@@ -1,0 +1,371 @@
+body {
+    background-image: url(background.jpg);
+    cursor: pointer;
+    }
+    a {
+    cursor: none;
+    }
+    .about {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 20px;
+      border: none;
+      color: #fff;
+    }
+    .btnContact{
+      background-color: #8dbfbe;
+      border-radius: 30px;
+      padding: 10px 30px;
+    }
+    .btnContact:hover {
+      transform: scale(1.3);
+      width: 100px;
+      border: 2px solid #fac344;
+      }
+    .certificate:hover {
+    transform: scale(1.5);
+    transition: 2s;
+    }
+    .par {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    }
+    .parAboutMe {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: #fff;
+    align-self: center;
+    }
+    .languages, h1, h3 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: .15em;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    }
+    h2{
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: .15em;
+      font-family: 'Source Code Pro', monospace;
+      margin: 30px;
+    }
+    .white{
+      color: white;
+    }
+    .textOne {
+      font-weight: 500;
+      letter-spacing: .15em;
+      font-size: 30px;
+      font-family: 'Source Code Pro', monospace;
+      text-align: center
+      
+    }
+    .text {
+    font-weight: 500;
+    letter-spacing: .15em;
+    color: #fac344;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    }
+    .myName {
+    color: #fac344;
+    font-weight: 500;
+    letter-spacing: .15em;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    }
+    label {
+      font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    }
+    .text-input {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 2px solid #8dbfbe;
+    padding: 10px 30px;
+    }
+    .btnSubmit {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    background-color: #8dbfbe;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    }
+    .btnSubmit:hover {
+    transform: scale(1.3);
+    width: 100px;
+    border: 2px solid #fac344;
+    }
+    .heading {
+    text-align: center;
+    color: #fff;
+    }
+    .formBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    }
+    .card {
+    background-color: #f8f9fa;
+    border: none;
+    }
+    .card:hover {
+    transform: rotate(5deg);
+    }
+    header {
+    position: sticky;
+    top: 0;
+    z-index: 1  
+    } 
+    .containerAboutMe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    }
+    .skills {
+    text-align: center;
+    background-color:rgb(49, 48, 48);
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0px 8px 6px rgb(0 0 0 / 25%);
+    margin-bottom: 50px;
+    }
+    .head {
+    background-color:
+    #406790;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    }
+    .photoOne {
+      border-radius: 10%;
+    margin: 50px;
+    box-shadow: 0px 8px 6px rgb(0 0 0 / 25%);
+    align-self: center;
+    }
+    #aboutMe {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .languages {
+    font-size: 20px;
+    }
+    .contact {
+    margin: 10px;
+    border-radius: 20px;
+    }
+    .contact:hover {
+    transform: scale(1.3);
+    border-radius: 50px;
+    border: 2px solid #007cff;
+    }
+    .html, .css, .js, .react {
+    background-color: 
+    #8dbfbe;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+    .bstrap, .gsap, .figma {
+    background-color: 
+    #fac344;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+    .boxes {
+    font-size: 20px;
+    }
+    .heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    #skills, #containerPortfolio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    .box {
+    margin-bottom: 50px;
+    }
+    #containerSkills {
+    background-color: white;
+    }
+    /* portfolio */
+    .containerPortfolio .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    }
+    .portfolio {
+    display: flex;
+    justify-content: center;
+    }
+    .heading {
+    font-size: 40px;
+    margin: 30px;
+    }
+    .containerPortfolio {
+    min-height: 100vh;
+    margin: 3rem 0 8rem 0;
+    }
+    .containerPortfolio .image-container .image {
+    height: 350px;
+    width: 450px;
+    border: 3px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 1rem;
+    }
+    .containerPortfolio .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    transition: .2s linear;
+    }
+    .containerPortfolio .image-container .image:hover img{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    align-items: flex-end;
+    padding: 1.5rem 1.25rem;
+    transition: .3s ease-in;
+    opacity: 0;
+    }
+    .projects__card {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem;
+    width: 100%;
+    }
+    .projects__modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    }
+    .projects__subtitle, 
+    .projects__title {
+    color: var(--dark);
+    text-align: center;
+    }
+    .projects__subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    }
+    .projects__title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: .75rem;
+    text-align: center;
+    }
+    .projects__modal a{
+    color: #007cff;
+    font-size: 1.5rem;
+    }
+    .projects__modal .link {
+    display: flex;
+    justify-content: center;
+    }
+    .lineOne {
+    width: 100px;
+    height: 3px;
+    background-color: #1f2335;
+    margin-top: -10px;
+    }
+    .lineTwo {
+      width: 100px;
+      height: 3px;
+      background-color: white;
+      margin-top: -10px;
+      }
+    .about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .down {
+    display: flex;
+    justify-content: center;
+    }
+    .up {
+    color: white;
+    }
+    .hand{
+      border-radius: 50%;
+    }
+    
+    @media all and (max-width: 500px) {
+      .btnContact {
+        margin: 5px;
+        padding: 10px;
+      }
+      .about {
+        margin-top: 30px;
+        margin-left: 180px;
+      }
+      .circle {
+        left: 290px
+      }
+      .head {
+        flex-direction: column;
+      }
+      .photoOne {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 0;
+      }
+      svg {
+        width: 30px;
+        height: auto;
+      }
+      .textOne {
+        font-size: 25px;
+      }
+      .text {
+        font-size: 25px;
+      }
+      #aboutMe {
+        text-align: center;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      #skills {
+        flex-wrap: wrap;
+      }
+      .containerAboutMe {
+       padding: 20px;
+      margin: auto;
+      }
+      .heading {
+        font-size: 30px;
+      }
+      .formBox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+      .card {
+        width: 200px;
+        align-self: center;
+      }
+      .checkEnd {
+        width: 50px;
+      }
+    }
+
+
