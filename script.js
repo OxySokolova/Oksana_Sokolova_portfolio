@@ -10,3 +10,8 @@ yoyo: true,
 delay: 2
 })
 
+document.getElementById('toggleButton').addEventListener('click', function () {
+    const buttonText = this.querySelector('.btnContact');
+    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+    buttonText.textContent = isExpanded ? 'Close' : 'Contact me';
+});
