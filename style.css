@@ -162,7 +162,7 @@ body {
     border-radius: 50px;
     border: 2px solid #007cff;
     }
-    .html, .css, .js, .react {
+    .html, .css, .js, .node, .database {
     background-color: 
     #8dbfbe;
     padding: 5px;
@@ -170,7 +170,7 @@ body {
     color: #fff;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
-    .bstrap, .gsap, .figma {
+    .bstrap, .gsap, .figma, .react, .redux, .design {
     background-color: 
     #fac344;
     padding: 5px;
