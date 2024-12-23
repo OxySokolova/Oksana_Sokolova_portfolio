@@ -255,7 +255,7 @@ body {
     }
     .projects__subtitle, 
     .projects__title {
-    color: var(--dark);
+    color: white;
     text-align: center;
     }
     .projects__subtitle {
