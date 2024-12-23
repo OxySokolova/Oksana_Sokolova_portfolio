@@ -2,9 +2,6 @@ body {
     background-image: url('https://cdn.glitch.global/af3f59bf-bce2-41cf-bc27-c15dbeaf5560/background.jpg?v=1685413955122');
     cursor: pointer;
     }
-    a {
-    cursor: none;
-    }
     .about {
       font-family: 'Source Code Pro', monospace;
       font-size: 20px;
